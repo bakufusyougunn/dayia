@@ -1,0 +1,89 @@
+nav {
+    opacity: 0.94;
+}
+
+.navbar-toggler {
+    border-style: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.form-inline {
+    flex-flow: row nowrap;
+    border: 1px solid rgba(0,0,0,.15);
+}
+
+.form-control {
+    border-style: none;
+}
+
+.btn {
+    border-style: none;
+}
+
+.dayia_display {
+    /*padding-left: 0;*/
+    /*padding-right: 0;*/
+
+    /*修改上面的属性为什么会影响到导航栏的固定呢？*/
+
+    background: url("img/header_background_1.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.dayia_display .jumbotron {
+    background-color: transparent;
+    margin-bottom: 6rem;
+    color: #ACBFE0;
+}
+
+.dayia_display .jumbotron .h2{
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.h6{
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+h4 {
+    font-weight: 100;
+}
+
+.quote_machine_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote_machine {
+    background-color: #ACBFE0;
+    color: white;
+}
+
+.quote_machine_border {
+    background-color: white;
+    color: #ACBFE0;
+}
+
+.blockquote-footer {
+    color: #ACBFE0;
+}
+
+.quote_machine .btn-secondary {
+    padding: 0;
+    font-size: 1.5rem;
+    color: #ACBFE0;
+}
+
+.quote_machine .btn-info {
+    background-color: #ACBFE0;
+    font-size: 0.8rem;
+}
